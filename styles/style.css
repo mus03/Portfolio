@@ -1,0 +1,146 @@
+/* shared styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* nav related styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: justify;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+  padding-left: 130px;
+  /* margin-left: 200px; */
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: justify;
+  margin-top: 70px;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+/* header style */
+.header {
+  background-color: #fff8f3;
+  background-image: url(../images/travel.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner .profile-pic {
+  width: 500px;
+  height: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
+}
+.banner-title {
+  margin-top: 5px;
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-description {
+  margin-top: 20px;
+}
+div .btn-primary {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 15px;
+  /* white-space: pre-line; */
+}
+div .btn-primary-one {
+  margin-top: 5px;
+
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid #fd6e0a;
+  color: #fd6e0a;
+  font-weight: 300;
+}
+/* main section style */
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+/* about section style */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background-color: rgba(238, 185, 85, 0.575);
+  margin: 130px 0px;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+.info-description {
+  font-weight: 800;
+}
+#what-i-do-description {
+  padding: 30px 150px;
+}
+/* what i do related styles */
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  /* border: 1px solid black; */
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px;
+  background: #fff;
+}
+.skill-description {
+  text-align: justify;
+}
